@@ -1,0 +1,27 @@
+:root {
+  --page-bgcolor: rgb(255, 255, 255);
+  
+  --page-textcolor-first: rgb(117, 117, 117);
+  --page-textcolor-two: rgb(33, 150, 243);
+  
+}
+body {
+  background-color: var(--page-bgcolor);
+  font-family: 
+  color: var(--page-textcolor-first);
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--page-textcolor-two);
+}
+.logo-studio {
+  color: rgb(0, 0, 0);
+}
+/* #2196F3 33 150 243
