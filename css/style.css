@@ -26,13 +26,19 @@ body {
 }
 
 .nav {
-font-family: 'Roboto', sans-serif;
-
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.nav-item {}
+.nav-item {
+  text-decoration: none;
+}
+.nav-item:hover,
+.nav-item:focus
+ {
+  color: var(--page-textcolor-two);
+}
 
 /* #2196F3 33 150 243
