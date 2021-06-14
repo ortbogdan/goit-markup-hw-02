@@ -7,7 +7,7 @@
 }
 body {
   background-color: var(--page-bgcolor);
-  font-family: 
+  font-family: 'Roboto', sans-serif;
   color: var(--page-textcolor-first);
 }
 
@@ -24,4 +24,15 @@ body {
 .logo-studio {
   color: rgb(0, 0, 0);
 }
+
+.nav {
+font-family: Roboto;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+
 /* #2196F3 33 150 243
