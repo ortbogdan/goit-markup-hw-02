@@ -26,13 +26,13 @@ body {
 }
 
 .nav {
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
-
+.nav-item {}
 
 /* #2196F3 33 150 243
