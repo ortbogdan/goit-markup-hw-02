@@ -3,14 +3,14 @@
   
   --page-textcolor-first: rgb(117, 117, 117);
   --page-textcolor-two: rgb(33, 150, 243);
-  
 }
 body {
-  background-color: var(--page-bgcolor);
   font-family: 'Roboto', sans-serif;
-  color: var(--page-textcolor-first);
-}
 
+  color: var(--page-textcolor-first);
+  background-color: var(--page-bgcolor);
+}
+/*Logo*/
 .logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -24,21 +24,45 @@ body {
 .logo-studio {
   color: rgb(0, 0, 0);
 }
-
-.nav {
-  font-family: 'Roboto', sans-serif;
+/*Navigation*/
+.menu {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-item {
-  text-decoration: none;
+.menu-list {
+  list-style: none;
 }
-.nav-item:hover,
-.nav-item:focus
+.menu-item {
+  text-decoration: none;
+  
+  color: rgb(33, 33, 33);
+}
+.menu-item:hover,
+.menu-item:focus
  {
   color: var(--page-textcolor-two);
 }
+.contacts-list {
+list-style: none;
+}
+.contacts-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-/* #2196F3 33 150 243
+  color: inherit;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--page-textcolor-two)
+  
+}
+
+
+
+
+/* #2196F3 33 150 243 #212121
