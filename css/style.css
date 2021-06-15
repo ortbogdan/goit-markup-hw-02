@@ -1,8 +1,8 @@
 :root {
-  --page-bgcolor: rgb(255, 255, 255);
+  --page-bgcolor: rgb(47, 48, 58);
 
-  --page-textcolor-first: rgb(117, 117, 117);
-  --page-textcolor-second: rgb(33, 150, 243);
+  --page-color-first: rgb(117, 117, 117);
+  --page-color-second: rgb(33, 150, 243);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -11,8 +11,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: var(--page-textcolor-first);
-  background-color: var(--page-bgcolor);
+  color: var(--page-color-first);
 }
 /*Header*/
 .top {
@@ -30,7 +29,7 @@ body {
   color: rgb(0, 0, 0);
 }
 .logo-web {
-  color: var(--page-textcolor-second);
+  color: var(--page-color-second);
 }
 /*Navigation*/
 .menu {
@@ -48,10 +47,10 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--page-textcolor-second);
+  color: var(--page-color-second);
 }
 .active-link {
-  color: var(--page-textcolor-second);
+  color: var(--page-color-second);
 }
 /*Contacts*/
 .contacts-list {
@@ -68,12 +67,12 @@ body {
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  color: var(--page-textcolor-second);
+  color: var(--page-color-second);
 }
 
 /*Footer*/
 .bottom {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--page-bgcolor);
 }
 .post {
   list-style: none;
@@ -91,5 +90,79 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .bottom .logo {
-  color: white;
+  color: rgb(255, 255, 255);
+}
+/*Hero*/
+.hero {
+  background-color: var(--page-bgcolor);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: rgb(255, 255, 255);
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: rgb(255, 255, 255);
+  background-color: var(--page-color-second);
+}
+/*Main*/
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: rgb(33, 33, 33);
+}
+
+/*Section benefits*/
+
+.benefits-list {
+  list-style: none;
+}
+.benefits-item .title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: left;
+}
+/*Section Workshop*/
+
+.workshop-list {
+  list-style: none;
+}
+/*Section Team*/
+.team {
+  background-color: rgb(245, 244, 250);
+}
+.team-list {
+  list-style: none;
+}
+.team-item {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  background: rgb(255, 255, 255);
+}
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
