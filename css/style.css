@@ -1,14 +1,22 @@
 :root {
   --page-bgcolor: rgb(255, 255, 255);
-  
+
   --page-textcolor-first: rgb(117, 117, 117);
-  --page-textcolor-two: rgb(33, 150, 243);
+  --page-textcolor-second: rgb(33, 150, 243);
 }
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
 
   color: var(--page-textcolor-first);
   background-color: var(--page-bgcolor);
+}
+/*Header*/
+.top {
+  background-color: rgb(255, 255, 255);
 }
 /*Logo*/
 .logo {
@@ -19,50 +27,69 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: var(--page-textcolor-two);
-}
-.logo-studio {
   color: rgb(0, 0, 0);
+}
+.logo-web {
+  color: var(--page-textcolor-second);
 }
 /*Navigation*/
 .menu {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .menu-list {
   list-style: none;
 }
-.menu-item {
+.menu-link {
   text-decoration: none;
-  
+
   color: rgb(33, 33, 33);
 }
-.menu-item:hover,
-.menu-item:focus
- {
-  color: var(--page-textcolor-two);
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--page-textcolor-second);
 }
+.active-link {
+  color: var(--page-textcolor-second);
+}
+/*Contacts*/
 .contacts-list {
-list-style: none;
-}
-.contacts-item {
-  text-decoration: none;
+  list-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.contacts-link {
+  text-decoration: none;
 
   color: inherit;
 }
-.contacts-item:hover,
-.contacts-item:focus {
-  color: var(--page-textcolor-two)
-  
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--page-textcolor-second);
 }
 
+/*Footer*/
+.bottom {
+  background-color: rgb(47, 48, 58);
+}
+.post {
+  list-style: none;
 
+  font-style: normal;
+}
+.post-office {
+  text-decoration: none;
 
+  color: rgb(255, 255, 255);
+}
+.post-link {
+  text-decoration: none;
 
-/* #2196F3 33 150 243 #212121
+  color: rgba(255, 255, 255, 0.6);
+}
+.bottom .logo {
+  color: white;
+}
