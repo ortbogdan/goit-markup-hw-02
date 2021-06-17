@@ -14,9 +14,7 @@ body {
   color: var(--page-text-color);
 }
 /*Header*/
-/*.top {
-  background-color: rgb(255, 255, 255);
-}
+
 /*Logo*/
 .logo {
   text-decoration: none;
@@ -49,7 +47,7 @@ body {
 .menu-link:focus {
   color: var(--page-color-second);
 }
-.active-link {
+.active {
   color: var(--page-color-second);
 }
 /*Contacts*/
@@ -191,6 +189,10 @@ body {
   color: rgb(33, 33, 33);
   background-color: rgb(245, 244, 250);
 }
+.active-bt {
+  color: var(--page-color-first);
+  background-color: var(--page-color-second);
+}
 .search-bt:hover,
 .search-bt:focus {
   color: var(--page-color-first);
@@ -203,8 +205,7 @@ body {
 .portfolio-link {
   text-decoration: none;
 }
-.portfolio-link .title {
-}
+
 .title-prt {
   font-weight: 700;
   font-size: 18px;
